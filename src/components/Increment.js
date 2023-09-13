@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { UseIncrement } from '../hooks/useIncrement';
+import { UseIncrement } from '../hooks';
 const Increment = () => {
   const [volume, { inc, dec, reset }] = UseIncrement({
     maxValue: 10,
